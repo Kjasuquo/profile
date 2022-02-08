@@ -199,6 +199,7 @@ p{
     width: 30%;
     border: none;
     outline: none;
+    border-radius: 5px;
 }
 
 #msg{
@@ -207,6 +208,7 @@ p{
     margin: 15px;
     border: none;
     outline: none;
+    border-radius: 5px;
 }
 
 #send{
@@ -215,6 +217,7 @@ p{
     margin: 40px;
     border: none;
     outline: none;
+    border-radius: 50px;
 }
 
 #send:hover{
