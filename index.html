@@ -115,29 +115,13 @@
 
     <section id="contact">
         <h1 class="headings" id="fourth">CONTACT</h1>
-        <form action="" class="form" onsubmit="sendEmail()"; reset(); return false;>
-            <input type="text" name="name" class="input" placeholder="Enter Your Name">
-            <input type="email" email="email" class="input" placeholder="Enter Your Email">
-            <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
+        <form action="" class="form" onsubmit="sendEmail()">
+            <input type="text" name="name" id="name" class="input" placeholder="Enter Your Name">
+            <input type="email" email="email" id= "subject" class="input" placeholder="Enter Your Email">
+            <textarea name="msg" id="msg" id= "message" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
             <input type="submit" value="SEND" id="send">
         </form>
     </section>
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
-    <script>
-        function sendEmail(){
-            Email.send({
-    Host : "smtp.gmail.com",
-    Username : "okoasuquo@gmail.com",
-    Password : "flyn!GG@01",
-    To : 'okoasuquo@gmail.com',
-    From : document.getElementById("email".value),
-    Subject : "New Contact Form Enquiry",
-    Body : "And this is the body"
-}).then(
-  message => alert(message)
-);
-
-        }
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
