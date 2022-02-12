@@ -13,22 +13,22 @@
    <nav class="navbar">
        <ul>
            <li><a href="#">Home</a> </li>
-           <li><a href="#middle">My Story</a> </li>
-           <li><a href="#third">Portfolio</a> </li>
-           <li><a href="#fourth">Contact Me</a> </li>
+           <li><a href="#my-story">My Story</a> </li>
+           <li><a href="#my-portfolio">Portfolio</a> </li>
+           <li><a href="#my-contact">Contact Me</a> </li>
        </ul>
    </nav>
 
    <section id="home">
        <div class="main">
            <h1 class="headings">I AM<br> JOSEPH ASUQUO</h1>
-           <a href="#fourth"><button class="btn">Reach Out</button></a>
+           <a href="#my-contact"><button class="btn">Reach Out</button></a>
 
        </div>
    </section>
 
    <section id="story"> 
-       <h1 class="headings" id="middle">MY STORY</h1>
+       <h1 class="headings" id="my-story">MY STORY</h1>
        <div id="pic">
            <img src="IMG_0646.JPG" alt="">
            <div id="intro">
@@ -61,7 +61,7 @@
     </section>
 
     <section id="portfolio">
-        <h1 class="headings" id="third">PORTFOLIO</h1>
+        <h1 class="headings" id="my-portfolio">PORTFOLIO</h1>
         <div class="row">
 
             <div class="box">
@@ -87,7 +87,7 @@
                        <li>Decagon: Golang Software Engineer (January, 2022 - Till Date)</li><br>
                        <li>IPI PowerTech Group, Lagos, Nigeria: QA/QC Engineer (Nov, 2019 - Nov, 2021)</li><br>
                        <li>National Hospital Abuja: Electrical Technician (August, 2016 - August, 2017)</li> <br>
-                       <li>Mobil Producing Nigerian: Electrical Intern (June, 2014 - December, 2014)</li><br>
+                       <li>Mobil Producing Nigeria: Electrical Intern (June, 2014 - December, 2014)</li><br>
                    </ul>
                 
             </div>
@@ -114,14 +114,13 @@
     </section>
 
     <section id="contact">
-        <h1 class="headings" id="fourth">CONTACT</h1>
-        <form action="" class="form" onsubmit="sendEmail()">
-            <input type="text" name="name" id="name" class="input" placeholder="Enter Your Name">
-            <input type="email" email="email" id= "subject" class="input" placeholder="Enter Your Email">
-            <textarea name="msg" id="msg" id= "message" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
+        <h1 class="headings" id="my-contact">CONTACT</h1>
+        <form action="https://formsubmit.co/okoasuquo@email.com" method="POST" class="form">
+            <input type="text" name="name" class="input" placeholder="Enter Your Name">
+            <input type="email" email="email" class="input" placeholder="Enter Your Email">
+            <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
             <input type="submit" value="SEND" id="send">
         </form>
     </section>
-    <script src="script.js"></script>
 </body>
 </html>
