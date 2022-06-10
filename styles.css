@@ -130,7 +130,7 @@ html{
     margin-bottom: 20px;
 }
 p{
-    font-size: 24px;
+    font-size: 20px;
 }
 .sto{
     color: rgb(48, 24, 70);
@@ -223,4 +223,15 @@ p{
 #send:hover{
     cursor: pointer;
     box-shadow: 0 0 10px white;
+}
+
+.work{
+    margin-left: 20px;
+}
+
+.work ul li{
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
 }
